@@ -11,7 +11,7 @@ import Test from './components/pages/Test';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename='/drama'>
+      {/* <BrowserRouter basename='/drama'> */}
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 }
