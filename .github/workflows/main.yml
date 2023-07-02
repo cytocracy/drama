@@ -32,6 +32,6 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           port: 22
           script: |
-            cd /html/drama
+            cd ~/html/drama
             rm -rf *
             scp -r ${{ github.workspace }}/build/* .
