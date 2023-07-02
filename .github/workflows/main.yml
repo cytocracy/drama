@@ -40,7 +40,7 @@ jobs:
               echo "dir found"
               rm -rf *
               echo ${{github.workspace}}
-              scp -r "./build/"* .
+              scp -r "/usr/bin/bash/build/"* .
             else
               echo "Error: Script not running in the expected directory." >&2
               exit 1
