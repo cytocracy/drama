@@ -7,6 +7,7 @@ class Nav extends React.Component {
             <div>
                 <h1>Nav</h1>
             </div>
+            
         );
     }
 

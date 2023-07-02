@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 import Layout from './components/globals/Layout';
 import Home from './components/pages/Home';
 import NotFound from './components/globals/NotFound';
+import Test from './components/pages/Test';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="test" element={<Test />} />
+            <Route path='*' element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>
