@@ -32,6 +32,11 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           port: 22
           script: |
-            cd ~/html/drama
-            rm -rf *
-            scp -r ${{ github.workspace }}/build/* .
+            cd /home/theop/html/drama
+            if [ "$(pwd)" = "/home/theop/html/drama" ]; then
+              rm -rf *
+              scp -r ${{ github.workspace }}/build/* .
+            else
+              echo "Error: Script not running in the expected directory." >&2
+              exit 1
+            fi
