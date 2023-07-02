@@ -36,7 +36,7 @@ jobs:
             if [ "$(pwd)" = "/home/theop/html/drama" ]; then
               echo "dir found"
               rm -rf *
-              scp -r ${{ github.workspace }}/build/* .
+              scp -r "${{ github.workspace }}/build/" .
             else
               echo "Error: Script not running in the expected directory." >&2
               exit 1
