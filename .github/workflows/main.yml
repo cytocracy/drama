@@ -27,12 +27,28 @@ jobs:
       - name: Test files
         run: ls
       
-      - name: install ssh keys
-        run: |
-          install -m 600 -D /dev/null ~/.ssh/id_rsa
-          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
-          ssh-keyscan -H ${{ secrets.SERVER_HOST }} > ~/.ssh/known_hosts
+      # - name: install ssh keys
+      #   run: |
+      #     install -m 600 -D /dev/null ~/.ssh/id_rsa
+      #     echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+      #     ssh-keyscan -H ${{ secrets.SERVER_HOST }} > ~/.ssh/known_hosts
 
+      - name: SFTP Deploy
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.1
+        with:
+          username: theop
+          server: cs.shschools.org
+          port: 22 # default is 22
+          ssh_private_key: ${{ secrets.SSH_KEY }}
+ 
+          
+          # will put all file under this path
+          local_path: ./build/* # default is ./*
+          # files will copy to under remote_path
+          remote_path: /home/theop/html/drama
+          
+          # sftp args
+          args: '-o ConnectTimeout=5'
       # - name: Deploy to server
       #   uses: appleboy/ssh-action@master
       #   with:
@@ -50,9 +66,9 @@ jobs:
       #         echo "Error: Script not running in the expected directory." >&2
       #         exit 1
       #       fi
-      - name: Deploy to server via SSH
-        run: |
-          scp -r build ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOST }}:/home/theop/html/drama
+      # - name: Deploy to server via SSH
+      #   run: |
+      #     scp -r build ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_HOST }}:/home/theop/html/drama
           
 # jobs:
 #   build-and-deploy:
