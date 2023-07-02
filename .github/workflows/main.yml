@@ -34,6 +34,7 @@ jobs:
           script: |
             cd /home/theop/html/drama
             if [ "$(pwd)" = "/home/theop/html/drama" ]; then
+              echo "dir found"
               rm -rf *
               scp -r ${{ github.workspace }}/build/* .
             else
