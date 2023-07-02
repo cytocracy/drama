@@ -26,6 +26,12 @@ jobs:
 
       - name: Test files
         run: ls
+      
+      - name: install ssh keys
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/id_rsa
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SERVER_HOST }} > ~/.ssh/known_hosts
 
       # - name: Deploy to server
       #   uses: appleboy/ssh-action@master
