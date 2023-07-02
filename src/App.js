@@ -7,6 +7,7 @@ import Home from './components/pages/Home';
 import NotFound from './components/globals/NotFound';
 import Test from './components/pages/Test';
 
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="test" element={<Test />} />
-            <Route path='*' element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>
