@@ -12,7 +12,7 @@ class Layout extends React.Component {
         render() {
             return (
                 <div>
-                    <Nav />
+                    <Nav className='nav' />
                     <Outlet />
                     <Footer />
                 </div>

@@ -1,6 +1,16 @@
 .App {
   text-align: center;
+  background-color: #F5F5F5;
+  min-height: 100vh;
+  -ms-overflow-style: none;
+    /* IE and Edge */
+  scrollbar-width: none;
+    /* Firefox */
 }
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -21,8 +31,14 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
+
+.highlight {
+  background-color: #930123;
+}
+
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +51,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  position: fixed;
 }
