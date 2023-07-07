@@ -5,7 +5,7 @@ class Test extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='mt-10'>
                 <h1>Test</h1>
                 <Link to="/">Go Home</Link>
             </div>
