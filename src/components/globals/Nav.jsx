@@ -29,7 +29,7 @@ class Nav extends React.Component {
         // this.home = this.home.bind(this);
     }
     listenScrollEvent = e => {
-        if (window.scrollY > 50 || window.location.pathname !== '/drama' || this.state.dropdown === true){
+        if (window.scrollY > 50 || window.location.pathname !== '/drama/' || this.state.dropdown === true){
             this.setState({scrollPositionY: window.scrollY, class: 'nav-bg', class2: 'site-name-scroll'})
         } else {
             this.setState({scrollPositionY: window.scrollY, class: 'nav-transparent', class2: 'site-name'})
@@ -39,7 +39,7 @@ class Nav extends React.Component {
     listenResizeEvent = e => {
         if (window.innerWidth > 640 && this.state.dropdown === true){
             this.setState({dropdown: false})
-            if (window.location.pathname === '/drama' ) this.bgOff();
+            if (window.location.pathname === '/drama/' ) this.bgOff();
         }
     }
 
@@ -73,7 +73,7 @@ class Nav extends React.Component {
 
     click(){
         window.scrollTo(0, 0)
-        if (window.location.pathname === '/drama' ) this.bgOn();
+        if (window.location.pathname === '/drama/' ) this.bgOn();
         else this.bgOff();
         this.setState({dropdown: false})
         console.log("click")
