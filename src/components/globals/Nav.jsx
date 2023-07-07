@@ -13,7 +13,8 @@ class Nav extends React.Component {
         super(props);
 
         const curr = window.location.pathname;
-        let name = curr === '/drama' ? 'nav-transparent' : 'nav-bg';
+        console.log(curr)
+        let name = curr === '/drama/' ? 'nav-transparent' : 'nav-bg';
        
         this.state = {
             scrollPositionY: 0,
