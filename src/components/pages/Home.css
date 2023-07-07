@@ -1,4 +1,10 @@
 .splash{
-    background-image: '../../imgs/IMG_0667.jpg';
+    background-image: url('../../imgs/IMG_0667.jpg');
+    background-color: gray;
+    background-blend-mode: multiply;
     /* background-color: red; */
+    /* filter: brightness(40%); */
+
+    font-family: "Noto Serif";
+
 }

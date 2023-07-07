@@ -5,11 +5,16 @@
   -ms-overflow-style: none;
     /* IE and Edge */
   scrollbar-width: none;
+
+  /* font-family: 'Noto Serif'; */
     /* Firefox */
 }
 
 
-
+@font-face {
+  font-family: 'Noto Serif';
+  src: url(./fonts/NotoSerifMakasar-Regular.ttf);
+}
 
 
 .App-logo {

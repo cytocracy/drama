@@ -8,16 +8,18 @@ import Footer from './Footer';
 import React from 'react';
 
 class Layout extends React.Component {
+
+
     
-        render() {
-            return (
-                <div>
-                    <Nav className='nav' />
-                    <Outlet />
-                    <Footer />
-                </div>
-            );
-        }
+    render() {
+        return (
+            <div>
+                <Nav  />
+                <Outlet />
+                <Footer />
+            </div>
+        );
+    }
 }
 
 
