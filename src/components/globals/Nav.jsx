@@ -12,10 +12,12 @@ class Nav extends React.Component {
         //set state
         super(props);
 
+        const curr = window.location.pathname;
+        let name = curr === '/drama' ? 'nav-transparent' : 'nav-bg';
        
         this.state = {
             scrollPositionY: 0,
-            class: 'nav-transparent',
+            class: name,
             class2: 'site-name',
             dropdown: false
         }

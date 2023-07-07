@@ -13,7 +13,7 @@ class Layout extends React.Component {
     
     render() {
         return (
-            <div>
+            <div className=' min-h-screen flex flex-col'>
                 <Nav  />
                 <Outlet />
                 <Footer />

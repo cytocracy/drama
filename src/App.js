@@ -6,6 +6,7 @@ import Layout from './components/globals/Layout';
 import Home from './components/pages/Home';
 import NotFound from './components/globals/NotFound';
 import Test from './components/pages/Test';
+import Events from './components/pages/Events';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="test" element={<Test />} />
+            <Route path="events" element={<Events />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
