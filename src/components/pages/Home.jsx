@@ -10,7 +10,7 @@ class Home extends React.Component {
         return (
             <div>
                 <div className='splash h-screen w-screen bg-cover flex justify-center items-center'>
-                    <h1 className='  text-slate-50 text-8xl'>
+                    <h1 className='  text-slate-50 text-7xl'>
                         Sacred Heart Prep Drama
                     </h1>
                 </div>
