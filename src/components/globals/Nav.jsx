@@ -12,14 +12,13 @@ class Nav extends React.Component {
         //set state
         super(props);
 
-        const curr = window.location.pathname;
-        console.log(curr)
-        let name = curr === '/drama/' ? 'nav-transparent' : 'nav-bg';
+        const { type } = props;
+        
+        let name = type === 0 ? 'nav-transparent' : 'nav-bg';
        
         this.state = {
             scrollPositionY: 0,
             class: name,
-            class2: 'site-name',
             dropdown: false
         }
 
@@ -29,28 +28,25 @@ class Nav extends React.Component {
         // this.home = this.home.bind(this);
     }
     listenScrollEvent = e => {
-        if (window.scrollY > 50 || window.location.pathname !== '/drama/' || this.state.dropdown === true){
-            this.setState({scrollPositionY: window.scrollY, class: 'nav-bg', class2: 'site-name-scroll'})
+        if (window.scrollY > 50 || this.state.dropdown === true){
+            this.setState({scrollPositionY: window.scrollY, class: 'nav-bg'})
         } else {
-            this.setState({scrollPositionY: window.scrollY, class: 'nav-transparent', class2: 'site-name'})
+            this.setState({scrollPositionY: window.scrollY, class: 'nav-transparent'})
         }
     }
 
     listenResizeEvent = e => {
         if (window.innerWidth > 640 && this.state.dropdown === true){
             this.setState({dropdown: false})
-            if (window.location.pathname === '/drama/' ) this.bgOff();
+            if (this.props.type === 0 && window.scrollY <= 50) this.bgOff();
         }
     }
 
     async toggleDropdown() {
         console.log("toggle")
         await this.setState({dropdown: !this.state.dropdown})
-        if (this.state.dropdown === true){
-            this.bgOn()
-            console.log("on");
-        } else {
-            this.bgOff()
+        if (this.props.type === 0 && window.scrollY <= 50) {
+            this.toggleBg();
         }
     }
 
@@ -71,18 +67,19 @@ class Nav extends React.Component {
     }
 
 
-    click(){
-        window.scrollTo(0, 0)
-        if (window.location.pathname === '/drama/' ) this.bgOn();
-        else this.bgOff();
-        this.setState({dropdown: false})
-        console.log("click")
-    }
+    // click(){
+    //     window.scrollTo(0, 0)
+        
+    //     if (window.location.pathname === '/drama/' || window.location.pathname === '/drama' ) this.bgOn();
+    //     else this.bgOff();
+    //     this.setState({dropdown: false})
+    //     console.log("click")
+    // }
 
     
 
     componentDidMount() {
-        window.addEventListener('scroll', this.listenScrollEvent)
+        if (this.props.type === 0)window.addEventListener('scroll', this.listenScrollEvent)
         window.addEventListener('resize', this.listenResizeEvent)
     }
     render() {
@@ -94,7 +91,7 @@ class Nav extends React.Component {
                 <div className={this.state.class}>
 
                     <div className='logo'>
-                        <Link to="/" onClick={() => this.click()} className='flex items-center'>
+                        <Link to="/" className='flex items-center'>
                         {/* image from mgs folder */}
                             <img src={logo} alt="logo" className=' w-10' />
                                 <p className={this.state.class === 'nav-transparent' ? 'site-name-hide' : 'site-name-scroll'}>SHP Drama</p>
@@ -103,7 +100,7 @@ class Nav extends React.Component {
                     </div>
                     
                     <div className='justify-self-end list-none hidden sm:flex w-[27rem] justify-between items-center sm:pr-5 links'>
-                            <Links click={() => this.click()}/>
+                            <Links />
                             {/* <Link to="/social">Socials</Link>  */}
 
                             <a href='https://www.instagram.com/shp.drama/' className='flex items-center'>
@@ -129,7 +126,7 @@ class Nav extends React.Component {
                         <line className='w-full h-[1px] bg-gray-900 pr-[-.75rem] z-50' />
 
                         <div className='w-full flex flex-col fixed  highlight items-end pr-3 links'>
-                            <Links click={() => this.click()}/>
+                            <Links />
 
                         </div>
                     </div>

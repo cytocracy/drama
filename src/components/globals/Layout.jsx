@@ -14,7 +14,7 @@ class Layout extends React.Component {
     render() {
         return (
             <div className=' min-h-screen flex flex-col'>
-                <Nav  />
+                <Nav type={1} />
                 <Outlet />
                 <Footer />
             </div>

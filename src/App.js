@@ -7,20 +7,21 @@ import Home from './components/pages/Home';
 import NotFound from './components/globals/NotFound';
 import Test from './components/pages/Test';
 import Events from './components/pages/Events';
+import { useState } from 'react';
 
 
 function App() {
+
   return (
     <div className="App">
-      {/* <BrowserRouter basename='/drama'> */}
         <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
+          <Route index exact={true} element={<Home />} />
+          <Route path="/" element={<Layout />} >
             <Route path="events" element={<Events />} />
+
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
-      {/* </BrowserRouter> */}
     </div>
   );
 }
