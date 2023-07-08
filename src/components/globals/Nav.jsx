@@ -93,13 +93,13 @@ class Nav extends React.Component {
                     <div className='logo'>
                         <Link to="/" className='flex items-center'>
                         {/* image from mgs folder */}
-                            <img src={logo} alt="logo" className=' w-10' />
+                            <img src={logo} alt="logo" className=' h-10' />
                                 <p className={this.state.class === 'nav-transparent' ? 'site-name-hide' : 'site-name-scroll'}>SHP Drama</p>
                         </Link>
                         
                     </div>
                     
-                    <div className='justify-self-end list-none hidden sm:flex w-[27rem] justify-between items-center sm:pr-5 links'>
+                    <div className='justify-self-end list-none hidden sm:flex w-[29rem] justify-between items-center sm:pr-5 links'>
                             <Links />
                             {/* <Link to="/social">Socials</Link>  */}
 
@@ -123,7 +123,7 @@ class Nav extends React.Component {
                 </div>
                 <div className='sm:hidden'>
                     <div className={this.state.dropdown ? 'dropdown' : 'dropdown hide'}>
-                        <line className='w-full h-[1px] bg-gray-900 pr-[-.75rem] z-50' />
+                        
 
                         <div className='w-full flex flex-col fixed  highlight items-end pr-3 links'>
                             <Links />

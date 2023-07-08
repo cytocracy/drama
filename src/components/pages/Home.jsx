@@ -14,8 +14,8 @@ class Home extends React.Component {
             <>
             <Nav type={0} />
             <div>
-                <div className='splash h-screen w-screen bg-cover flex justify-center items-center'>
-                    <h1 className='  text-slate-50 text-7xl'>
+                <div className='splash h-screen w-screen bg-cover bg-top flex justify-center items-center'>
+                    <h1 className='  text-slate-50 text-7xl p-5'>
                         Sacred Heart Prep Drama
                     </h1>
                 </div>

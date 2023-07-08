@@ -14,7 +14,7 @@ class Events extends React.Component {
     render() {
         return (
             <>
-                <div className="flex w-full pt-[4.5rem]">
+                <div className="flex w-full pt-[4rem]">
                     <p>hi</p>
                 </div>
             </>

@@ -1,10 +1,10 @@
 .nav-transparent {
-    padding: 1rem;
+    padding: .75rem;
     --tw-text-opacity: 1;
     color: rgb(248 250 252 / var(--tw-text-opacity));
     display: flex;
     justify-content: space-between;
-    height: 4.5rem;
+    height: 4rem;
     /* max-height: 5rem; */
     position: fixed;
     width: 100%;
@@ -21,12 +21,18 @@
     transition: 0.2s ease;
     display: flex;
     flex-direction: column;
-    margin-top: 4.5rem;
+    margin-top: 4rem;
     position: fixed;
     width: 100%;
     transition: 0.2s ease;
     /* opacity: 1; */
+    border-top-width: 1.5px;
+    border-color: black;
+
+
 }
+
+
 
 .hide {
     /* display: none; */
@@ -41,12 +47,12 @@
 }
 
 .nav-bg {
-    padding: 1rem;
+    padding: .75rem;
     --tw-text-opacity: 1;
     color: rgb(248 250 252 / var(--tw-text-opacity));
     display: flex;
     justify-content: space-between;
-    height: 4.5rem;
+    height: 4rem;
     /* max-height: 5rem; */
     position: fixed;
     top:0;
@@ -68,6 +74,8 @@
     display: block;
     pointer-events: all;
     transition: 0.2s ease;
+    max-height: 1.5rem;
+    overflow: hidden;
 
 }
 
