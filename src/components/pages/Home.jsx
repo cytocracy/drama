@@ -20,7 +20,7 @@ class Home extends React.Component {
                         </h1>
                     </div>
                     <div className='pagebody w-full flex justify-center'>
-                        <div className='pagecontent w-[80rem] px-20 max-w-full flex flex-col justify-center items-center'>
+                        <div className='pagecontent w-[80rem] sm:px-20 px-8 max-w-full flex flex-col justify-center items-center'>
                             <div className='flex flex-col justify-center self-center items-center py-10 px-2 max-w-xl'>
                                 <h1 className=' mb-9 text-3xl text-neutral-600 break-before-auto break-normal'>Welcome to Sacred Heart Prep Drama!</h1>
                                 <p className='block break-before-auto'>This is the home for all things musicals, plays, improv, and tech theatre at Sacred Heart Prep. Here you can learn more about who we are, what we do, and how you can get involved.</p>
