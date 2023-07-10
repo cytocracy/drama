@@ -8,6 +8,7 @@ import NotFound from './components/globals/NotFound';
 import Test from './components/pages/Test';
 import Events from './components/pages/Events';
 import { useState } from 'react';
+import Audition from './components/pages/Audition';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route index exact={true} element={<Home />} />
           <Route path="/" element={<Layout />} >
             <Route path="events" element={<Events />} />
+            <Route path="audition" element={<Audition />} />
 
             <Route path="*" element={<NotFound />} />
           </Route>
