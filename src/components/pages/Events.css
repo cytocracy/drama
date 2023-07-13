@@ -1,0 +1,6 @@
+@media (min-width: 640px) {
+    .vert {
+        writing-mode: vertical-rl;
+    }
+    
+}

@@ -10,8 +10,8 @@ class NotFound extends React.Component {
     render() {
         return (
             <div className='pt-[4rem]'>
-                <h1 className=' p-5'>Uh Oh! This page doesn't exist. Enjoy some memes for your troubles.</h1>
-                <div className='flex flex-col sm:flex-row justify-center'>   
+                <h1 className=' p-5'>Uh Oh! This page doesn't exist.</h1>
+                <div className='hidden flex-col sm:flex-row justify-center'>   
                     <img src={meme1} alt='meme' className=' h-96' />
                     <img src={meme2} alt='meme' className='h-96'/>
                 </div>
