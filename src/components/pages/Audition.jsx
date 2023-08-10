@@ -22,12 +22,17 @@ class Audition extends React.Component {
             rows: [
                 {
                     title: "Do I need to prepare anything?",
-                    content: "Yeah lmao better be good too",
+                    content: "At auditions, you will be asked to sing a song of your choice from a set of show numbers, and you will be asked to read a scene from the show. You may rehearse these pieces beforehand.",
                 },
                 {
                     title: "What are callbacks?",
                     content: "Callbacks are a second round of auditions where we will ask you to do some more stuff",
                 },
+                {
+                    title: "Am I guaranteed to be cast?",
+                    content: "It depends. Based on the number of roles in each show and the amount of people that audition, we may not be able to cast everyone. If this is the case, the director will let you know leading up to or at auditions. Much of the time, we are able to cast everyone who auditions.",
+                },
+                
             ]
         }
 
@@ -37,7 +42,7 @@ class Audition extends React.Component {
 
         return (
             <>
-                <div className="flex px-4 flex-col items-center justify-center grow w-full pt-[4rem]">
+                <div className="flex px-8 flex-col self-center items-center grow pt-[4rem] max-w-[60rem]">
                     <div clasName='faq'>
                         <Faq
                             data={data}
