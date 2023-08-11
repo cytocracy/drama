@@ -26,7 +26,7 @@ class Audition extends React.Component {
                 },
                 {
                     title: "What are callbacks?",
-                    content: "Callbacks are a second round of auditions where we will ask you to do some more stuff",
+                    content: "If the production team would like to see more of you after your audition, they may give you a callback for a specific role. Usually the day after auditions, callbacks are a time for the production team to see you in a more specific role. You will be given a song and a scene to prepare for callbacks. If you are given a callback, you will be notified by email. If you do not receive a callback, this does NOT mean you are not cast in the show. It simply means that the production team has seen what they need from you.",
                 },
                 {
                     title: "Am I guaranteed to be cast?",
