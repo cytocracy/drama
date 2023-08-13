@@ -46,32 +46,32 @@ class Audition extends React.Component {
         return (
             <>
                 
-                <div className="flex px-8 flex-col self-center items-center grow pt-[4rem] max-w-[60rem]">
+                <div className="flex px-8 flex-col self-center items-center grow pt-[4rem] max-w-[80rem]">
 
                     <div>
-                        <h1 className='text-5xl  mb-10 pt-10'>Audition Info</h1>
+                        <h1 className='text-5xl  pt-10'>Audition Information</h1>
                     </div>
 
-                    <div className='flex w-[130%] h-full p-10 pt-0 justify-between md:flex-row flex-col'>
-                        <div className='elf flex flex-col items-center'>
-                            <img src={elf} alt='flyer' className='h-[25rem] aspect-vertical w-[18.75rem] object-fill border-4 border-spacing-0 border-highlight' />
+                    <div className='flex md:w-[100%] h-full mt-10 pt-0 justify-between md:flex-row flex-col items-center'>
+                        <div className='elf flex flex-col items-center md:w-[33%]'>
+                            <img src={elf} alt='flyer' className='aspect-vertical w-[80%] object-fill border-4 border-spacing-0 border-highlight' />
                             <a href="https://docs.google.com/document/d/1K1EE0Fi4ezK_41QWyoXwyEIBYObnvT5JZREb77F3lno/edit" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Audition Info</a>
 
                         </div>
-                        <div className='twelfth flex flex-col items-center'>
-                            <img src={twelfth} alt='flyer' className='h-[25rem] aspect-vertical w-[18.75rem] object-fill border-4 border-spacing-0 border-highlight' />
+                        <div className='twelfth flex flex-col items-center md:w-[33%]'>
+                            <img src={twelfth} alt='flyer' className=' aspect-vertical w-[80%] object-fill border-4 border-spacing-0 border-highlight' />
                             <a href="https://drive.google.com/drive/folders/12DMrx0M0txnoApLJantiB_SGB_A6hzb4" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Audition Info</a>
 
                             
                         </div>
-                        <div className='rotten flex flex-col items-center'> 
-                            <img src={rotten} alt='flyer' className='h-[25rem] aspect-vertical w-[18.75rem] object-fill border-4 border-spacing-0 border-highlight' />
+                        <div className='rotten flex flex-col items-center md:w-[33%]'> 
+                            <img src={rotten} alt='flyer' className=' aspect-vertical w-[80%] object-fill border-4 border-spacing-0 border-highlight' />
                             <a href="https://drive.google.com/drive/folders/12DMrx0M0txnoApLJantiB_SGB_A6hzb4" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Audition Info</a>
 
                         </div> 
 
                     </div>
-                    <div clasName='faq'>
+                    <div className='faq max-w-[60rem]'>
                         <Faq
                             data={data}
                             styles={styles}

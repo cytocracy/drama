@@ -16,15 +16,18 @@ class Events extends React.Component {
     render() {
         return (
             <>
-                <div className="flex flex-col w-screen pt-[6rem] items-center px-4">
-                    <div className='content w-[80rem] max-w-full flex flex-col items-center sm:flex-row justify-center'>
-                        <div className='schedule flex flex-col sm:flex-row justify-center items-center min-w-[25rem] mr-0 sm:mr-10 mb-8 sm:mb-0'>
-                            <h1 className=' text-xl font-bold pb-2 sm:pb-0 vert sm:-rotate-180'>23/24 SHP Drama Play Season</h1>
-                            <img src={flyer} alt='flyer' className='h-[25rem] aspect-vertical w-[18.75rem] object-fill border-4 border-spacing-0 border-highlight' />
+                <div className="page flex flex-col w-full pt-[6rem] items-center">
+                    {/* whole page */}
+                    
+                    
+                    <div className='content w-full max-w-[80rem] flex flex-col items-center md:flex-row justify-center'>
+                        <div className='schedule md:ml-10 flex flex-col md:flex-row justify-center items-center w-full md:w-[25%] mr-0 md:mr-10 mb-8 md:mb-0'>
+                            <h1 className=' text-xl font-bold pb-2 md:pb-0 vert md:-rotate-180'>23/24 SHP Drama Play Season</h1>
+                            <img src={flyer} alt='flyer' className=' aspect-vertical w-[75%] md:w-full object-fill border-4 border-spacing-0 border-highlight' />
                         </div>
                         
-                        <div className='flex flex-col h-[30rem] justify-around items-center'>
-                            <h1 className=' text-3xl font-bold pb-2 sm:pb-0 justify-self-start mb-10 mt-20  '>Upcoming Events</h1>
+                        <div className='flex flex-col md:h-[30rem] justify-around items-center'>
+                            <h1 className=' text-3xl font-bold pb-2 sm:pb-0 justify-self-start mb-10 sm:mt-20  '>Upcoming Events</h1>
                             <div className='flex flex-col md:flex-row justify-around w-auto'>
                                 <div className='flex flex-col justify-center items-center md:mr-8 mb-8 md:mb-0'>
                                     <h1 className=' text-lg font-bold'>Elf, the Musical</h1>
