@@ -7,6 +7,9 @@ import Nav from '../globals/Nav';
 import Footer from '../globals/Footer';
 import Faq from "react-faq-component";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import elf from '../../imgs/elfaudition.jpg'
+import twelfth from '../../imgs/twelfth.png'
+import rotten from '../../imgs/rotten.png'
 
 
 
@@ -42,7 +45,32 @@ class Audition extends React.Component {
 
         return (
             <>
+                
                 <div className="flex px-8 flex-col self-center items-center grow pt-[4rem] max-w-[60rem]">
+
+                    <div>
+                        <h1 className='text-5xl  mb-10 pt-10'>Audition Info</h1>
+                    </div>
+
+                    <div className='flex w-[130%] h-full p-10 pt-0 justify-between md:flex-row flex-col'>
+                        <div className='elf flex flex-col items-center'>
+                            <img src={elf} alt='flyer' className='h-[25rem] aspect-vertical w-[18.75rem] object-fill border-4 border-spacing-0 border-highlight' />
+                            <a href="https://docs.google.com/document/d/1K1EE0Fi4ezK_41QWyoXwyEIBYObnvT5JZREb77F3lno/edit" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Audition Info</a>
+
+                        </div>
+                        <div className='twelfth flex flex-col items-center'>
+                            <img src={twelfth} alt='flyer' className='h-[25rem] aspect-vertical w-[18.75rem] object-fill border-4 border-spacing-0 border-highlight' />
+                            <a href="https://drive.google.com/drive/folders/12DMrx0M0txnoApLJantiB_SGB_A6hzb4" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Audition Info</a>
+
+                            
+                        </div>
+                        <div className='rotten flex flex-col items-center'> 
+                            <img src={rotten} alt='flyer' className='h-[25rem] aspect-vertical w-[18.75rem] object-fill border-4 border-spacing-0 border-highlight' />
+                            <a href="https://drive.google.com/drive/folders/12DMrx0M0txnoApLJantiB_SGB_A6hzb4" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Audition Info</a>
+
+                        </div> 
+
+                    </div>
                     <div clasName='faq'>
                         <Faq
                             data={data}
