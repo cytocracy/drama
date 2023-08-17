@@ -9,8 +9,8 @@ class Footer extends React.Component {
 
                     <div className=" h-32 flex flex-col pt-5 pb-3 justify-center">
                         <div className=" text-neutral-800 font-bold text-center">&copy; SHP Drama 2023</div>
-                        <div className="text-neutral-600 text-center text-sm">Not affiliated with SHP.</div>
-                        <div className="text-neutral-400 text-center text-sm">developed by theo.</div>
+                        {/* <div className="text-neutral-600 text-center text-sm">Not affiliated with SHP.</div> */}
+                        <div className="text-neutral-600 text-center text-sm">developed by theo.</div>
 
                     </div>
                     {/* <div className='hidden sm:block h-1 bg-slate-900 w-[90%] max-w-xl opacity-10 rounded-full self-center'></div> */}
@@ -25,8 +25,8 @@ class Footer extends React.Component {
                         Test
                     </div> */}
                         <div className=" text-neutral-300 font-bold text-center">&copy; SHP Drama</div>
-                        <div className="text-neutral-400 text-center">Not affiliated with SHP.</div>
-                        <div className="text-neutral-300 text-center">Developed by Theo.</div>
+                        {/* <div className="text-neutral-400 text-center">Not affiliated with SHP.</div> */}
+                        <div className="text-neutral-400 text-center">Developed by Theo.</div>
                     </div>
                 </div>
             </div>
