@@ -1,0 +1,4 @@
+.links a:hover {
+    color: #d08a9b;
+    transition: 0.2s ease;
+}
