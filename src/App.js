@@ -9,6 +9,7 @@ import Test from './components/pages/Test';
 import Events from './components/pages/Events';
 import { useState } from 'react';
 import Audition from './components/pages/Audition';
+import Shows from './components/pages/Shows';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Layout />} >
             <Route path="events" element={<Events />} />
             <Route path="audition" element={<Audition />} />
+            <Route path="shows" element={<Shows />} />
 
             <Route path="*" element={<NotFound />} />
           </Route>
