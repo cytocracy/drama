@@ -11,6 +11,7 @@ import elf from '../../imgs/elfaudition.jpg'
 import twelfth from '../../imgs/twelfth.png'
 import rotten from '../../imgs/rotten.png'
 
+import './Audition.css'
 
 
 class Audition extends React.Component {
@@ -47,7 +48,7 @@ class Audition extends React.Component {
                 <div className="flex px-8 flex-col self-center items-center grow pt-[4rem] max-w-[80rem]">
 
                     <div>
-                        <h1 className='text-5xl  pt-10'>Audition Information</h1>
+                        <h1 className='text-5xl  pt-10 title'>Audition Information</h1>
                     </div>
 
                     <div className='flex md:w-[100%] h-full mt-10 pt-0 justify-between md:flex-row flex-col items-center'>

@@ -66,3 +66,7 @@
 .nav {
   position: fixed;
 }
+
+.title {
+  font-family: "Noto Serif";
+}

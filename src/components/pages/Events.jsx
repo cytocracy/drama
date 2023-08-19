@@ -30,7 +30,7 @@ class Events extends React.Component {
                         </div>
                         
                         <div className='flex flex-col md:h-[30rem] justify-around items-center'>
-                            <h1 className=' text-3xl font-bold pb-2 sm:pb-0 justify-self-start mb-10 sm:mt-20  '>Upcoming Events</h1>
+                            <h1 className=' text-3xl font-bold pb-2 sm:pb-0 justify-self-start mb-10 sm:mt-20 title '>Upcoming Events</h1>
                             <div className='flex flex-col md:flex-row justify-around w-auto'>
                                 <div className='flex flex-col justify-center items-center md:mr-8 mb-8 md:mb-0'>
                                     <h1 className=' text-lg font-bold'>Elf, the Musical</h1>
