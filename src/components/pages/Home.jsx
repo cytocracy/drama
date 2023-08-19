@@ -8,7 +8,9 @@ import opp from '../../imgs/opp.png'
 
 
 class Home extends React.Component {
-
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
 
     render() {
         return (

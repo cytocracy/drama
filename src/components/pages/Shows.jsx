@@ -39,7 +39,9 @@ class Shows extends React.Component {
         this.fetchMoreData = this.fetchMoreData.bind(this);
         this.hasMore = this.hasMore.bind(this);
     }
-
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     fetchMoreData = () => {
         
         if (this.state.activeShows.length === this.state.shows.length) {

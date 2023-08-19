@@ -14,11 +14,10 @@ import rotten from '../../imgs/rotten.png'
 
 
 class Audition extends React.Component {
-
-    constructor(props) {
-        super(props);
+    
+    componentDidMount() {
+        window.scrollTo(0, 0);
     }
-
     render() {
         const data = {
             title: "Audition FAQs",
@@ -42,7 +41,6 @@ class Audition extends React.Component {
         const styles = {
             bgColor: 'whitesmoke',
         }
-
         return (
             <>
                 
