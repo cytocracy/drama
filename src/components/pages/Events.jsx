@@ -26,7 +26,7 @@ class Events extends React.Component {
                     <div className='content w-full max-w-[80rem] flex flex-col items-center md:flex-row justify-center'>
                         <div className='schedule md:ml-10 flex flex-col md:flex-row justify-center items-center w-full md:w-[25%] mr-0 md:mr-10 mb-8 md:mb-0'>
                             <h1 className=' text-xl font-bold pb-2 md:pb-0 vert md:-rotate-180'>23/24 SHP Drama Play Season</h1>
-                            <img src={flyer} alt='flyer' className=' aspect-vertical w-[75%] md:w-full object-fill border-4 border-spacing-0 border-highlight' />
+                            <img src={flyer} alt='flyer' className=' aspect-vertical shadow-2xl w-[75%] md:w-full object-fill border-4 border-spacing-0 border-highlight' />
                         </div>
                         
                         <div className='flex flex-col md:h-[30rem] justify-around items-center'>
@@ -37,21 +37,21 @@ class Events extends React.Component {
                                     <p>All-Campus Musical (Grades 1-12)</p>
                                     <p>Performances: November 2023</p>
                                     <p>Directed by Rachel Prouty</p>
-                                    <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
+                                    <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] shadow-xl rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
                                 </div>
                                 <div className='flex flex-col justify-center items-center md:mr-8 mb-8 md:mb-0'>
                                     <h1 className=' text-lg font-bold'>Twelfth Night</h1>
                                     <p>Winter Play</p>
                                     <p>Performances: Februrary 2024</p>
                                     <p>Directed by Jeffrey Adams</p>
-                                    <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
+                                    <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] shadow-xl rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
                                 </div>
                                 <div className='flex flex-col justify-center items-center md:ml-8 sm:mt-0 mt-8'>
                                     <h1 className=' text-lg font-bold'>Something Rotten!</h1>
                                     <p>Spring Musical</p>
                                     <p>Performances: May 2024</p>
                                     <p>Directed by Jeffrey Adams</p>
-                                    <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
+                                    <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] shadow-xl rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
                                 </div>
                             </div>
                             <div>

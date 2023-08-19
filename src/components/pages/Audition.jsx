@@ -14,7 +14,7 @@ import rotten from '../../imgs/rotten.png'
 
 
 class Audition extends React.Component {
-    
+
     componentDidMount() {
         window.scrollTo(0, 0);
     }
@@ -52,18 +52,18 @@ class Audition extends React.Component {
 
                     <div className='flex md:w-[100%] h-full mt-10 pt-0 justify-between md:flex-row flex-col items-center'>
                         <div className='elf flex flex-col items-center md:w-[33%]'>
-                            <img src={elf} alt='flyer' className='aspect-vertical w-[80%] object-fill border-4 border-spacing-0 border-highlight' />
+                            <img src={elf} alt='flyer' className='aspect-vertical shadow-2xl w-[80%] object-fill border-4 border-spacing-0 border-highlight' />
                             <a href="https://docs.google.com/document/d/1K1EE0Fi4ezK_41QWyoXwyEIBYObnvT5JZREb77F3lno/edit" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Audition Info</a>
 
                         </div>
                         <div className='twelfth flex flex-col items-center md:w-[33%]'>
-                            <img src={twelfth} alt='flyer' className=' aspect-vertical w-[80%] object-fill border-4 border-spacing-0 border-highlight' />
+                            <img src={twelfth} alt='flyer' className=' aspect-vertical shadow-2xl w-[80%] object-fill border-4 border-spacing-0 border-highlight' />
                             <a href="https://drive.google.com/drive/folders/12DMrx0M0txnoApLJantiB_SGB_A6hzb4" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Audition Info</a>
 
                             
                         </div>
                         <div className='rotten flex flex-col items-center md:w-[33%]'> 
-                            <img src={rotten} alt='flyer' className=' aspect-vertical w-[80%] object-fill border-4 border-spacing-0 border-highlight' />
+                            <img src={rotten} alt='flyer' className=' aspect-vertical shadow-2xl w-[80%] object-fill border-4 border-spacing-0 border-highlight' />
                             <a href="https://drive.google.com/drive/folders/12DMrx0M0txnoApLJantiB_SGB_A6hzb4" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Audition Info</a>
 
                         </div> 
