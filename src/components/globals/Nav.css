@@ -12,6 +12,7 @@
     transition: 0.2s ease;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 99 !important;
 }
 
 .dropdown {
@@ -28,6 +29,7 @@
     /* opacity: 1; */
     border-top-width: 1.5px;
     border-color: black;
+    z-index: 99 !important;
 
 
 }
@@ -60,6 +62,7 @@
     background-color: #930123;
     transition: 0.2s ease;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 99 !important;
 }
 
 .site-name-hide {
