@@ -29,6 +29,12 @@ class Shows extends React.Component {
                     date='Fall 2021'
                     link='https://public.vidigami.com/slideshows/dXNlcnw2MTA1MzE=/0e765e32370075c78f4987864ea95c57ea658fe9?delay=3500&autoplay=true&loop=true&transparent=false&mute=true&show_title=true'
                 />,
+                <Show 
+                    name='Imaginary Invalid'
+                    date='2018-2019'
+                    link='https://public.vidigami.com/slideshows/dXNlcnw2MTA1MzE=/dd6cc3e3375122966195f9f17f5df16533d3b4e4?delay=3500&autoplay=true&loop=true&transparent=false&mute=true&show_title=true'
+                />,
+                
 
             ],
             activeShows: [],
