@@ -41,6 +41,11 @@ class Audition extends React.Component {
 
         const styles = {
             bgColor: 'whitesmoke',
+            rowContentPaddingTop: '15px',
+            rowContentPaddingBottom: '15px',
+            rowContentPaddingLeft: '50px',
+            rowContentPaddingRight: '50px',
+
         }
         return (
             <>
