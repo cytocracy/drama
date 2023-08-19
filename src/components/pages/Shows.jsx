@@ -77,7 +77,7 @@ class Shows extends React.Component {
                         loader={<h4 className=''>Loading...</h4>}
                         endMessage={
                             <p style={{ textAlign: "center" }}>
-                                <b>Yay! You have seen it all</b>
+                                <b>That's it! You've seen it all.</b>
                             </p>
                         }
                     >
