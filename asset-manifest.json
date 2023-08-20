@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/drama/static/css/main.3a25c9ff.css",
-    "main.js": "/drama/static/js/main.baa556d5.js",
-    "static/js/787.8c09df93.chunk.js": "/drama/static/js/787.8c09df93.chunk.js",
-    "static/media/twelfth.png": "/drama/static/media/twelfth.8168683b0d2e4ee2b983.png",
-    "static/media/rotten.png": "/drama/static/media/rotten.d45006cf060fc2ffe7b5.png",
-    "static/media/opp.png": "/drama/static/media/opp.07cf3b656a97585813a7.png",
-    "static/media/flyer.png": "/drama/static/media/flyer.e217a49f8cef2aa8f055.png",
-    "static/media/IMG_0667.jpg": "/drama/static/media/IMG_0667.ebbdb6c7c1ba69f04d21.jpg",
-    "static/media/elfaudition.jpg": "/drama/static/media/elfaudition.34fed3541b9c818b36d5.jpg",
-    "static/media/Roboto-Regular.ttf": "/drama/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
-    "static/media/IMG_1956.JPEG": "/drama/static/media/IMG_1956.7693ed09ef95da50d0ff.JPEG",
-    "static/media/IMG_5106.JPG": "/drama/static/media/IMG_5106.fa2ae4cc8658fb807ab1.JPG",
-    "static/media/NotoSerifMakasar-Regular.ttf": "/drama/static/media/NotoSerifMakasar-Regular.3fcc734bf7d1a596c324.ttf",
-    "static/media/logo.png": "/drama/static/media/logo.ca237b0602e4877658a0.png",
-    "static/media/logo.svg": "/drama/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/drama/index.html",
-    "main.3a25c9ff.css.map": "/drama/static/css/main.3a25c9ff.css.map",
-    "main.baa556d5.js.map": "/drama/static/js/main.baa556d5.js.map",
-    "787.8c09df93.chunk.js.map": "/drama/static/js/787.8c09df93.chunk.js.map"
+    "main.css": "/shpdrama.org/static/css/main.dbb74507.css",
+    "main.js": "/shpdrama.org/static/js/main.95d43600.js",
+    "static/js/787.8c09df93.chunk.js": "/shpdrama.org/static/js/787.8c09df93.chunk.js",
+    "static/media/twelfth.png": "/shpdrama.org/static/media/twelfth.8168683b0d2e4ee2b983.png",
+    "static/media/rotten.png": "/shpdrama.org/static/media/rotten.d45006cf060fc2ffe7b5.png",
+    "static/media/opp.png": "/shpdrama.org/static/media/opp.07cf3b656a97585813a7.png",
+    "static/media/flyer.png": "/shpdrama.org/static/media/flyer.e217a49f8cef2aa8f055.png",
+    "static/media/IMG_0667.jpg": "/shpdrama.org/static/media/IMG_0667.ebbdb6c7c1ba69f04d21.jpg",
+    "static/media/elfaudition.jpg": "/shpdrama.org/static/media/elfaudition.34fed3541b9c818b36d5.jpg",
+    "static/media/Roboto-Regular.ttf": "/shpdrama.org/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/IMG_1956.JPEG": "/shpdrama.org/static/media/IMG_1956.7693ed09ef95da50d0ff.JPEG",
+    "static/media/IMG_5106.JPG": "/shpdrama.org/static/media/IMG_5106.fa2ae4cc8658fb807ab1.JPG",
+    "static/media/NotoSerifMakasar-Regular.ttf": "/shpdrama.org/static/media/NotoSerifMakasar-Regular.3fcc734bf7d1a596c324.ttf",
+    "static/media/logo.png": "/shpdrama.org/static/media/logo.ca237b0602e4877658a0.png",
+    "static/media/logo.svg": "/shpdrama.org/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/shpdrama.org/index.html",
+    "main.dbb74507.css.map": "/shpdrama.org/static/css/main.dbb74507.css.map",
+    "main.95d43600.js.map": "/shpdrama.org/static/js/main.95d43600.js.map",
+    "787.8c09df93.chunk.js.map": "/shpdrama.org/static/js/787.8c09df93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a25c9ff.css",
-    "static/js/main.baa556d5.js"
+    "static/css/main.dbb74507.css",
+    "static/js/main.95d43600.js"
   ]
 }
