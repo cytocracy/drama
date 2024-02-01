@@ -44,7 +44,7 @@ class Events extends React.Component {
                                     <p>Winter Play</p>
                                     <p>Performances: Februrary 2024</p>
                                     <p>Directed by Jeffrey Adams</p>
-                                    <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] shadow-xl rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
+                                    <a href="https://shschools.myschoolapp.com/page/z-2021-hpr-event-detail?pk=20833070&register=48732&fbclid=PAAaatopX8am0JVRtqrWvnNiBZZpbiDM9-CL-7Nd-Y0TYvksfW0UFZdA9uQQw_aem_AbLrluY4Q-HPEFvqu6ToW9vueJpngYbpEFocQs4RxqfnrB28Lq_CPIxEY8-xOwfHWGo&siteId=878&ssl=1" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] shadow-xl rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
                                 </div>
                                 <div className='flex flex-col justify-center items-center md:ml-8 sm:mt-0 mt-8'>
                                     <h1 className=' text-lg font-bold'>Something Rotten!</h1>
