@@ -51,7 +51,7 @@ class Events extends React.Component {
                                     <p>Spring Musical</p>
                                     <p>Performances: May 2024</p>
                                     <p>Directed by Jeffrey Adams</p>
-                                    <a href="https://youtu.be/xvFZjo5PgG0" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] shadow-xl rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
+                                    <a href="https://www.shschools.org/z-2021-hpr-event-detail?pk=21310581" target="_blank" className=' w-56 block border-highlight text-highlight font-bold border-[3px] shadow-xl rounded-full px-5 py-2 mt-5 mb-10 w-fit'>Get tickets!</a>
                                 </div>
                             </div>
                             <div>
