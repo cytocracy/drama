@@ -10,6 +10,11 @@ class Shows extends React.Component {
         this.state = {
             shows: [
                 <Show
+                    name='Something Rotten'
+                    date='May 2024'
+                    link='https://public.vidigami.com/slideshows/dXNlcnw2MTA1MzE=/51d76d93059370c528fe74c75a40f735ebfa38a8?delay=5000&autoplay=true&loop=true&transparent=false&mute=true&show_title=true'
+                />,
+                <Show
                     name='Into the Woods'
                     date='May 2023'
                     link='https://public.vidigami.com/slideshows/dXNlcnw2MTA1MzE=/10fe1e375098d54cc4347881fa7567da1643ba65?delay=3500&autoplay=true&loop=true&transparent=false&mute=true&show_title=true'
