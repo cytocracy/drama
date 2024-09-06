@@ -94,7 +94,7 @@ class Nav extends React.Component {
                     <div className='logo'>
                         <Link to="/" className='flex items-center'>
                             {/* image from mgs folder */}
-                            <img src={logo} alt="logo" className=' h-10' />
+                            <img src={logo} alt="logo" className=' h-10 rounded-lg' />
                             <p className={this.state.class === 'nav-transparent' ? 'site-name-hide' : 'site-name-scroll'}>SHP Drama</p>
                         </Link>
 

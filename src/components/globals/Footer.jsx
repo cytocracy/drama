@@ -20,7 +20,7 @@ class Footer extends React.Component {
                     </div>
 
                     <div className=" h-32 flex flex-col py-5 justify-center">
-                        <div className=" text-neutral-800 font-bold text-center">&copy; SHP Drama 2023</div>
+                        <div className=" text-neutral-800 font-bold text-center">&copy; SHP Drama 2024</div>
                         <div className="text-neutral-600 text-center text-sm">developed by theo.</div>
 
                     </div>
